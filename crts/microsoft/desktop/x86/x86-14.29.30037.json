@@ -12,7 +12,7 @@
         }
     },
     "requires": {
-        "crts/microsoft/headers": "14.29.30037"
+        "crts/microsoft/headers/headers": "14.29.30037"
     },
     "install": [
         {
@@ -23,13 +23,5 @@
             "sha256": "02b2e54551c4692d6e270c538e8008d1a9c55b1fa727bddf2126c796a64c3161",
             "strip": 7
         }
-    ],
-    "settings": {
-        "paths": {
-            "lib": [ "./c/ucrt/x86", "./c/um/x86" ]
-        },
-        "locations": {
-            "WindowsSDK_LibraryPath_x86": [ "./c/ucrt/x86", "./c/um/x86" ]
-        }
-    }
+    ]
 }

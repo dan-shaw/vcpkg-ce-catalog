@@ -31,13 +31,5 @@
             "sha256": "d0703f92bc8e53bcb567b3166b62c3ab8a5b8ae0e8f75db25a25e13afb2de92b",
             "strip": 8
         }
-    ],
-    "settings": {
-        "paths": {
-            "include": "."
-        },
-        "locations": {
-            "VC_VC_IncludePath": "."
-        }
-    }
+    ]
 }

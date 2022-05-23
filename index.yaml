@@ -1,7 +1,18 @@
 # MANIFEST-INDEX
 items:
   [
-    compilers/arm/gcc/gcc-2020.10.0.json,    tools/arduino/arduino-cli-0.18.3.json,    tools/arduino/arduino-ide-1.18.15.json,    tools/compuphase/termite-3.4.0.json,    tools/kitware/cmake-3.20.1.json,    tools/microsoft/openocd-0.11.0-ms1.json,    tools/microsoft/openocd-0.11.0.json,    tools/ninja-build/ninja-1.10.2.json
+    compilers/arm/gcc/gcc-2020.10.0.json,
+    tools/arduino/arduino-cli-0.18.3.json, tools/arduino/arduino-ide-1.18.15.json,    
+    tools/compuphase/termite-3.4.0.json,    
+    tools/kitware/cmake-3.20.1.json,    
+    tools/microsoft/openocd-0.11.0-ms1.json, tools/microsoft/openocd-0.11.0.json,    
+    tools/ninja-build/ninja-1.10.2.json,
+    sdks/microsoft/windows/windows-10.0.19041.json, 
+    sdks/microsoft/windows/windows.arm-10.0.19041.json, sdks/microsoft/windows/windows.arm64-10.0.19041.json,
+    sdks/microsoft/windows/windows.x64-10.0.19041.json, sdks/microsoft/windows/windows.x86-10.0.19041.json,
+    crts/microsoft/desktop/desktop-14.29.30037.json, 
+    crts/microsoft/desktop/desktop/x86/x86-14.29.30037.json,
+    crts/microsoft/headers/headers-14.29.30037.json
   ]
 indexes:
   IdentityKey/info.id:
@@ -13,6 +24,14 @@ indexes:
       tools/kitware/cmake: [ 4 ]
       tools/microsoft/openocd: [ 5, 6 ]
       tools/ninja-build/ninja: [ 7 ]
+      sdks/microsoft/windows/windows: [ 8 ]
+      sdks/microsoft/windows/windows.arm: [ 9 ]
+      sdks/microsoft/windows/windows.arm64: [ 10 ]
+      sdks/microsoft/windows/windows.x64: [ 11 ]
+      sdks/microsoft/windows/windows.x86: [ 12 ]
+      crts/microsoft/desktop/desktop: [ 13 ] 
+      crts/microsoft/desktop/desktop/x86: [ 14 ]
+      crts/microsoft/headers/headers: [ 15 ]
     words:
       arduino: [ 1, 2 ]
       arduino-cli: [ 1 ]
@@ -31,12 +50,22 @@ indexes:
       compilers/arm/gcc: [ 0 ]
       compuphase: [ 3 ]
       compuphase/termite: [ 3 ]
+      crts: [ 13, 14, 15 ]
+      crts/microsoft: [ 13, 14, 15 ]
+      crts/microsoft/desktop: [ 13, 14 ]
+      crts/microsoft/headers: [ 15 ]
       gcc: [ 0 ]
       ide: [ 2 ]
       kitware: [ 4 ]
       kitware/cmake: [ 4 ]
-      microsoft: [ 5, 6 ]
-      microsoft/openocd: [ 5, 6 ]
+      microsoft: [ 5, 6, 8, 9, 13, 14, 15 ]
+      sdks/microsoft: [ 8, 9 ]
+      sdks/microsoft/windows: [ 8, 9, 10, 11, 12 ]
+      sdks/microsoft/windows.arm: [ 9 ]
+      sdks/microsoft/windows.arm64: [ 10 ]
+      sdks/microsoft/windows.x64: [ 11 ]
+      sdks/microsoft/windows.x86: [ 12 ]
+      microsoft/openocd: [ 5, 10 ]
       ninja: [ 7 ]
       ninja-build: [ 7 ]
       ninja-build/ninja: [ 7 ]
@@ -65,6 +94,8 @@ indexes:
       1.18.15: [ 2 ]
       3.4.0: [ 3 ]
       3.20.1: [ 4 ]
+      10.0.19041: [ 8, 9, 10, 11, 12 ]
+      14.29.30037: [ 13, 14, 15 ]
       2020.10.0: [ 0 ]
   StringKey/info.summary:
     keys:
@@ -74,6 +105,7 @@ indexes:
       Kitware's cmake tool: [ 4 ]
       Ninja is a small build system with a focus on speed.: [ 7 ]
       Termite is an easy to use and easy to configure RS232 terminal.: [ 3 ]
+      Scratch2: [ 9 ]
     words:
       ARM: [ 0 ]
       Arduino: [ 1, 2 ]
