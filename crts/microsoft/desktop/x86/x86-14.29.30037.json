@@ -12,7 +12,7 @@
         }
     },
     "requires": {
-        "crts/microsoft/headers/headers": "14.29.30037"
+        "crts/microsoft/headers": "14.29.30037"
     },
     "install": [
         {
