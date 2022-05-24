@@ -19,5 +19,20 @@
             ],
             "sha256": "7D7213F0A675877437C9B1CA4AB4FA8CBFF9F999A3F0121D2763C17A9B26BB42"
         }
-    ]
+    ],
+    "exports": {
+        "paths": {
+            "LIB": [
+                "./c/ucrt/x86",
+                "./c/um/x86"
+            ],
+            "PATH": "./bin"
+        },
+        "environment": {
+            "WindowsSDK_LibraryPath_x86": [
+                "./c/ucrt/x86",
+                "./c/um/x86"
+            ]
+        }
+    }
 }

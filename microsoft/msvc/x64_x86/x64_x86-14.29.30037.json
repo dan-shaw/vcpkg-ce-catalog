@@ -12,6 +12,14 @@
         }
     },
     "demands": {
+        "windows": {
+            "exports": {
+                "paths": {
+                    "PATH": ".",
+                    "VC_ExecutablePath_x64_x86": "."
+                }
+            }
+        },
         "not windows and not x64": {
             "error": "In order to use the MSVC compiler, the --target:<> must be set."
         },

@@ -14,6 +14,17 @@
     "requires": {
         "crts/microsoft/headers": "14.29.30037"
     },
+    "demands": {
+        "windows": {
+            "exports": {
+                "paths": {
+                    "LIB": ".",
+                    "LIBPATH": ".",
+                    "VC_LibraryPath_VC_x86_Desktop": "."
+                }
+            }
+        }
+    },
     "install": [
         {
             "unzip": [

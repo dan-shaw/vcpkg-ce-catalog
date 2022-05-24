@@ -1,8 +1,8 @@
 {
     "info": {
-        "id": "crts/microsoft/desktop",
+        "id": "crts/microsoft/onecore",
         "version": "14.29.30037",
-        "summary": "MSVC standard library libraries (desktop / kernel32)"
+        "summary": "MSVC standard library libraries (desktop / onecore)"
     },
     "contacts": {
         "Mark Levine": {
@@ -13,7 +13,6 @@
     "demands": {
         "target:x86": {
             "requires": {
-                "crts/microsoft/desktop/x86": "14.29.30037",
                 "crts/microsoft/onecore/x86": "14.29.30037"
             }
         }

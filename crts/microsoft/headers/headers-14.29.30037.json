@@ -18,7 +18,8 @@
         "windows": {
             "exports": {
                 "paths": {
-                    "INCLUDE": "."
+                    "INCLUDE": ".",
+                    "VC_VC_IncludePath": "."
                 }
             }
         }
