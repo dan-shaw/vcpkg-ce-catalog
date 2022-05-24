@@ -14,6 +14,15 @@
     "requires": {
         "crts/microsoft/headers": "14.29.30037"
     },
+    "demands": {
+        "windows": {
+            "exports": {
+                "paths": {
+                    "INCLUDE": "."
+                }
+            }
+        }
+    },
     "install": [
         {
             "unzip": [
