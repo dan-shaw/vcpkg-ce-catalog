@@ -1,0 +1,35 @@
+{
+    "info": {
+        "id": "ideal-crts/microsoft/desktop/x86/release",
+        "version": "14.29.30037",
+        "summary": "MSVC standard library libraries (desktop / kernel32)",
+        "options": [ "dependencyOnly" ]
+    },
+    "contacts": {
+        "Mark Levine": {
+            "email": "markle@microsoft.com",
+            "role": [ "publisher" ]
+        }
+    },
+    "requires": {
+        "crts/microsoft/headers": "14.29.30037"
+    },
+    "demands": {
+        "windows": {
+            "exports": {
+                "paths": {
+                    "LIB": ".",
+                    "LIBPATH": ".",
+                    "VC_LibraryPath_VC_x86_Desktop": "."
+                }
+            }
+        }
+    },
+    "install": [
+        {
+            "unzip": [
+                "D:/14.29/archives/lib.x86.desktop.release.zip"
+            ]
+        }
+    ]
+}
